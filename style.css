@@ -1,0 +1,59 @@
+.body-container{
+    font-family: "Poppins", sans-serif;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.header{
+    text-align: center;
+}
+
+.header-title{
+    font-size: 36px;
+    font-weight: 600;
+    width: 80%;
+    margin: auto;
+}
+
+.seperator{
+    margin: 40px 0;
+}
+
+.main-container{
+    width: 100%;
+    margin: auto;
+}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.article-image{
+    
+    width: 20%; 
+}
+
+.article-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.article-content{
+    width: 80%;
+}
+
+.article-content > h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.article-content > p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #6C727F;
+}
